@@ -12,4 +12,3 @@ pytz==2016.7
 scipy==0.18.1
 seaborn==0.7.1
 six==1.10.0
-tensorflow==0.11.0rc2

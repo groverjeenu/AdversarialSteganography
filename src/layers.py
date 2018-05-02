@@ -11,6 +11,7 @@ def conv1d(input_, filter_shape, stride, name="conv1d"):
         return conv
 
 
+
 def conv_layer(hidden_layer_output, name):
     h0 = tf.nn.relu(conv1d(hidden_layer_output, FILTERS[0], stride=1, name=name+'_h0_conv'))
     h1 = tf.nn.relu(conv1d(h0, FILTERS[1], stride=2, name=name+'_h1_conv'))
